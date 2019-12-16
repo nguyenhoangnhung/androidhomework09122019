@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:background="#FF5555">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/user_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_address"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/addr_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street" />
+
+        <TextView
+            android:id="@+id/addr_suite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="suite" />
+
+        <TextView
+            android:id="@+id/addr_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="city" />
+
+        <TextView
+            android:id="@+id/addr_zipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="zipcode" />
+    </LinearLayout>
+</LinearLayout>
